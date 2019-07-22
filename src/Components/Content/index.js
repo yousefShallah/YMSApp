@@ -2,6 +2,8 @@ import React from 'react';
 import './style.css';
 const Content = () => {
     return(
+        <div className="continer"> 
+            <h3>Content With Us</h3>
         <div className="contentSection"> 
             <div className="inputs">
                 <input type="text" placeholder="Name" />
@@ -16,6 +18,7 @@ const Content = () => {
                 <p> <span>Email : </span><a href="#"> yousefmohshallah33@gmail.com </a></p>
                 <p> <span>Website : </span><a href="#"> www.yms.com </a></p>
             </div>
+        </div>
         </div>
     )
 }

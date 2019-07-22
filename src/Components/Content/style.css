@@ -1,10 +1,28 @@
+.continer{
+    background: -webkit-linear-gradient(55deg,#4a63f1 0,#557ce6 11%,#179fff 75%,#04dcfe 100%);    box-sizing: border-box;
+    height: 800px;
+    width: 100%;
+}
+.continer h3{
+    box-sizing: border-box;
+    padding-top: 12%;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
 .contentSection{
     width: 100%;
     height: auto;
-    padding: 10%;
+    padding: 6%;
     display: flex;
     box-sizing: border-box;
-    background: -webkit-linear-gradient(55deg,#4a63f1 0,#557ce6 11%,#179fff 75%,#04dcfe 100%);    box-sizing: border-box;
+}
+.contentSection p{
+    font-size: 20px;
+    color: #252525;
+    font-weight: bold;
+    text-align: center;
 }
 .inputs{
     width: 50%;
@@ -51,6 +69,7 @@
     font-weight: 100;
     color: #252525;
     margin: 15px;
+    text-align: left;
 }
 .details p span{
     color: #252525;
