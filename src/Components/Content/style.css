@@ -17,6 +17,7 @@
     padding: 6%;
     display: flex;
     box-sizing: border-box;
+    margin-left: 6%;
 }
 .contentSection p{
     font-size: 20px;
