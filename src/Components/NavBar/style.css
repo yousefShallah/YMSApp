@@ -20,7 +20,7 @@
 .list{
     display: flex;
     /*justify-content: center;*/
-    width: 38%;
+    width: 25%;
     float: right;
     padding-top: 3em;
     list-style-type: none;
