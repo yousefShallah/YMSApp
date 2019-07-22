@@ -14,7 +14,7 @@
     border-top-right-radius: 80%;
     border-bottom-right-radius: 60%;
     border-bottom-left-radius: 40%;
-    background: #00BCD4;
+    background: -webkit-linear-gradient(55deg,#4a63f1 0,#557ce6 11%,#179fff 75%,#04dcfe 100%);    box-sizing: border-box;
     box-sizing: border-box;
 }
 .appPic{
@@ -55,13 +55,14 @@
     height: 40px;
     border: 0px;
     border-radius: 5px;
-    background: #B2EBF2;
+    background: -webkit-linear-gradient(55deg,#4a63f1 0,#557ce6 11%,#179fff 75%,#04dcfe 100%); 
     color: #252525;
     margin-top: 50px;
 }
 .btnDawnlode:hover{
     color: #fff;
-    background: #0097A7;
+    background: -webkit-linear-gradient(55deg,#04dcfe  0 , #179fff 11%,#557ce6 75%,#4a63f1 100%); 
+    box-sizing: border-box;
     cursor: pointer;
     transition: all .5s ease-in;
 }
