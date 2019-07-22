@@ -1,0 +1,41 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: sans-serif;
+}
+.imgDiv {
+    width: 50%;
+    float: left;
+    margin: 0%;
+    padding: 0%;
+
+}
+.logo {
+    width: 8em;
+    height: 8em;
+    padding: 0px;
+    margin-top: 0%;
+    margin-left: 5%;
+}
+.list{
+    display: flex;
+    /*justify-content: center;*/
+    width: 38%;
+    float: right;
+    padding-top: 3em;
+    list-style-type: none;
+}
+.list li{
+    font-size: 17px;
+    margin-left: 6em;
+}
+.list li a{
+    text-decoration: none;
+    color: #252525;
+}
+.list li a:hover{
+    color: #ccc;
+    border-bottom: #252525 solid 1px;
+    transition: all .5s ease-in;
+
+}

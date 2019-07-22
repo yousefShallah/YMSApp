@@ -1,0 +1,41 @@
+.aboutSection{
+    width: 89%;
+    height: 330px;
+    margin: 20px auto; 
+     background: #BBDEFB;
+     border-radius: 5px;
+     box-sizing: border-box;
+     padding-top: 20px;
+}
+.aboutText{
+    width: 60%;
+    float: left;
+    box-sizing: border-box;
+    margin-top: 10px;
+}
+.aboutText h3{
+    font-family: sans-serif;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 20px;
+    box-sizing: border-box;
+    color: #252525;
+}
+.aboutText p{
+    text-align: left;
+    padding: 20px;
+    font-family: sans-serif;
+    font-size: 15px;
+    display: inline-flex;
+    justify-content: inherit;
+    margin-top: 10px;
+}
+.aboutSection img{
+    width: 40%;
+    height: auto;
+    float: right;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-top: 0px;
+    border-radius: 15px;
+}
