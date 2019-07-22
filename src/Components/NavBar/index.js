@@ -10,10 +10,12 @@ const NavBar = () => {
             </div>
             <ul className="list"> 
                 <li> <Link to="/"> Home </Link> </li>
-                <li> <Link to="/about"> About </Link> </li>
                 <li> <Link to="/content"> Content </Link> </li>
             </ul>
         </div>
     )
 }
+/*// about link 
+<li> <Link to="/about"> About </Link> </li>
+*/
 export default NavBar;

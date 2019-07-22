@@ -12,7 +12,6 @@ class App extends React.Component {
       <BrowserRouter> 
         <NavBar />
           <Route exact path='/' component={Index} />
-          <Route path='/about' component={About} />
           <Route path='/content' component={Content} />
       </BrowserRouter>
         
@@ -22,5 +21,7 @@ class App extends React.Component {
   
 }
 }
-
+/*  // about rout link 
+    <Route path='/about' component={About} />
+*/ 
 export default App;
